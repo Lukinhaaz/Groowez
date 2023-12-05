@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+    <!-- CDN da última versão compilada do Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CDN da última versão compilada do JavaScript CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link para Fonte utilizada no Cabeçalho (Google Fonts) -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Borel&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&display=swap');
+    </style>
+
+    <!-- CDN da últilma versão do Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    
+    <!-- Cabeçalho da Página -->
+    <div class="container text-center">
+        <img src="img/Groowez.png" style="width:400px;">
+    </div>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" title="Ir para a Página Inicial">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Link Inativo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formLogin.html" title="Acessar o Sistema">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container que abrigará o conteúdo da página -->
+    <div class="container text-center" style="margin-top:30px; margin-bottom:100px;">
+
+        <div class="alert alert-info text-center" style="width:50%; margin:auto;">
+            Há <strong>12</strong> Produtos diferentes disponíveis em nosso estoque! &nbsp<i class="bi bi-emoji-smile"></i>
+        </div>
+
+        <!-- Início da primeira linha da GRID -->
+        <div class="row" style="margin-top:30px;">
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/piet-surfing-6_960x1552.webp" title='Soul T-Shirt - Bone White' alt="Soul T-Shirt - Bone White">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>Soul T-Shirt - Bone White</b></h4>
+                        <p class="card-text"><b>R$ R$ 269,90</b></p>
+                        <a href="visualizarProduto.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 100%; height:100%;">
+                    <img class="card-img-top" src="img/piet-surfing-13_12b4499f-22e0-4bfa-852e-c56af2960f1d_960x1552.webp" title='Super Puff DM T-Shirt - Black' alt="Super Puff DM T-Shirt - Black">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Super Puff DM T-Shirt - Black</b></h4>
+                        <p class="card-text"><b>R$  359,90</b></p>
+                        <a href="vizualizarProduto2.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/3.webp" title='Striped Patchwork T-Shirt' alt="Striped Patchwork T-Shirt">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Striped Patchwork T-Shirt</b></h4>
+                        <p class="card-text"><b>R$ 329,90</b></p>
+                        <a href="vizualizarProduto3.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/8.webp" title='Surfing Drums T-Shirt' alt="Surfing Drums T-Shirt">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b> Surfing Drums T-Shirt</b></h4>
+                        <p class="card-text"><b>R$ 349,90</b></p>
+                        <a href="vizualizarProduto4.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim da primeira linha da GRID -->
+
+        <!-- Início da segunda linha da GRID-->
+        <div class="row" style="margin-top:30px;">
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/4.webp" title='Super Heavyweight Distressed Hoodie' alt="Super Heavyweight Distressed Hoodie">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>Super Heavyweight Distressed Hoodie</b></h4>
+                        <p class="card-text"><b>R$ 599,90</b></p>
+                        <a href="vizualizarProduto5.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 100%; height:100%;">
+                    <img class="card-img-top" src="img/5.webp" title='Super Puff Hoodie' alt="Super Puff Hoodie">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Super Puff Hoodie</b></h4>
+                        <p class="card-text"><b>R$ 699,90</b></p>
+                        <a href="vizualizarProduto6.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/6.webp" title='Slime Raw Denim Pants' alt="Slime Raw Denim Pants">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Slime Raw Denim Pants</b></h4>
+                        <p class="card-text"><b>R$ 659,90</b></p>
+                        <a href="vizualizarProduto7.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:100%; height:100%;">
+                    <img class="card-img-top" src="img/7.webp" title='Cubatão Raw Denim' alt="Cubatão Raw Denim">
+                    <div class="card-body" style="height:100%">
+                        <h4 class="card-title"><b>Cubatão Raw Denim </b></h4>
+                        <p class="card-text"><b>R$ 649,90</b></p>
+                        <a href="vizualizarProduto8.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim da segunda linha da GRID -->
+
+    </div>
+
+    <!-- Div do Rodapé (Fixa na base) -->
+    <div class="mt-5 bg-dark text-white text-center fixed-bottom">
+        <p>
+            Interfaces para um sistema de vendas de Joaninhas<br>
+            Desenvolvido por
+            <b><a href="mailto:lucasgabriel11282@gmail.com?subject=Tecnologias Web">lucasgabriel11282@gmail.com</a></b> para utilização na disciplina de Tecnologias Web>
+        </p>
+    </div>
+
+</body>
+</html>
